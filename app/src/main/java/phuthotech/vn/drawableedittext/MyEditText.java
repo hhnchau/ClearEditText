@@ -11,7 +11,6 @@ import android.view.MotionEvent;
 
 
 public class MyEditText extends android.support.v7.widget.AppCompatEditText {
-    private Context mContext;
     private Bitmap mClearButton;
     private Paint mPaint;
 

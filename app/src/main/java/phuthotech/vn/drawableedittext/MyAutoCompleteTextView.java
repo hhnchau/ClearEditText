@@ -11,7 +11,6 @@ import android.view.MotionEvent;
 
 
 public class MyAutoCompleteTextView extends android.support.v7.widget.AppCompatAutoCompleteTextView {
-        private Context mContext;
         private Bitmap mClearButton;
         private Paint mPaint;
 
@@ -37,7 +36,7 @@ public class MyAutoCompleteTextView extends android.support.v7.widget.AppCompatA
 
         private void init(Context context) {
 
-            mClearButton = BitmapFactory.decodeResource(context.getResources(),android.R.drawable.ic_delete);
+            mClearButton = BitmapFactory.decodeResource(context.getResources(),R.drawable.ic_clear);
 
             mPaint = new Paint();
             mPaint.setAntiAlias(true);
